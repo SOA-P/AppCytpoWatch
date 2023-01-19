@@ -1,5 +1,13 @@
-import React from "react";
+import HeaderInfos from "./components/HeaderInfos";
 
 export default function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <div className="app-cntainer">
+        <header>
+          <HeaderInfos />
+        </header>
+      </div>
+    </div>
+  );
 }

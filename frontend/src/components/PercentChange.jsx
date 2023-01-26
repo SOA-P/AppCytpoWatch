@@ -18,7 +18,7 @@ export default function PercentChange({ percent }) {
 
   return (
     <p className="percent-change-container" style={{ color }}>
-      {percent ? `${percent.toFixed(1)}%` : "-"}
+      {percent ? `${percent.toFixed(1)} %` : "-"}
     </p>
   );
 }
